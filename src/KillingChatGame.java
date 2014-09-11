@@ -12,7 +12,7 @@ import java.awt.geom.Arc2D.Double;
 import java.io.*;
 
 
-public class TestProject {
+public class KillingChatGame {
 
 	public static void main(String[] args) throws InterruptedException {
 		// Set This Int for How Much Time to make it sleep between Keybord Input
