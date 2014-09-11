@@ -28,6 +28,7 @@ public class KillingChatGame {
 		System.out.println("<<----------Your Now Connected With Someone--------->>");
 		// InputName Telling the int name above
 		String InputName = ("Stranger");
+		String EndName = ("Stranger");
 		// End Of InputName
 		String InputChatting = InputName + " Is Typeing";
 		System.out.println(InputChatting);
@@ -48,8 +49,6 @@ public class KillingChatGame {
 		System.out.println(InputChatting);
 		Thread.sleep(sleep2);
 		// InputName Asking What you like to do
-		System.out.println(InputChatting);
-		Thread.sleep(sleep2);
 		System.out.println("whats Your Favorate Thing To Do?");
 		System.out.println("<--Type In And Press Enter-->");
 		String UInputFavthing = Keyboard.readString();
@@ -74,7 +73,6 @@ public class KillingChatGame {
 		System.out.println(InputChatting);
 		Thread.sleep(sleep1);
 		System.out.println("But...");
-		// TODO WITCH this One
 		Thread.sleep(sleep2);
 		System.out.println(InputChatting);
 		Thread.sleep(sleep2);
@@ -82,25 +80,34 @@ public class KillingChatGame {
 		Thread.sleep(sleep1);
 		System.out.println(InputChatting);
 		Thread.sleep(sleep2);
-		System.out.print("IF you can guess this Number" + UInputName + "Then i will let you go... :D. OK?");
-		
-		String UInputOk = Keyboard.readString();
+		System.out.println("IF you can guess this Number " + UInputName + " Then i will let you go... :D. OK?");
 		System.out.println("<--Type In OK! And Press Enter-->");
+		String UInputOk = Keyboard.readString();
 		System.out.println(InputChatting);
 		Thread.sleep(sleep2);
 		System.out.println("Ok, Im Thinking of a Number of...");
 		System.out.println("<--Type In OK! And Press Enter-->");
 		System.out.println(" ");
-		// TODO GET THIS ONE
+		// TODO GET THIS ONE with float
 		float UInputFloat1 = Keyboard.readFloat();
+		System.out.println("<--Type In A Number! And Press Enter-->");
 		System.out.println(InputChatting);
 		Thread.sleep(sleep2);
-		System.out.println("So you Number is.." + UInputFloat1 + "Huh? WRONG!");
+		System.out.println("So you Number is.." + UInputFloat1 + " Huh? WRONG!");
 		System.out.println(InputChatting);
 		Thread.sleep(sleep2);
 		System.out.println("Next one, " + UInputName);
+		double UInputdouble = 0.14435;
 		System.out.println(InputChatting);
 		Thread.sleep(sleep2);
+		System.out.println("Guess the this number thats a decalmel");
+		System.out.println("<--Type In delimal! And Press Enter-->");
+		double UInputdouble1 = Keyboard.readDouble();
+		System.out.println(InputChatting);
+		Thread.sleep(sleep2);
+		System.out.println("so your number is... " + UInputdouble1 + " mummmmm. nope now you willl die im tracing you ip mate");
+		System.out.println("And now I know where you live. ha! ha! ha!. Im coming for you!");
+		Thread.sleep(sleep1)
 		System.out.println("DIE!");
 		Thread.sleep(700);
 		System.out.println("DIE!");
@@ -121,7 +128,7 @@ public class KillingChatGame {
 		Thread.sleep(700);
 		System.out.println("DIE!");
 		Thread.sleep(700);
-		System.out.println("<<--------Disconnected With, " + UInputName + "--------->>");
+		System.out.println("<<--------Disconnected With, " + EndName + "--------->>");
 		Thread.sleep(700);
 		
 				
