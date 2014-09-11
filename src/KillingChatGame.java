@@ -20,8 +20,9 @@ public class KillingChatGame {
 		int sleep2 = 5000;
 		float UInputFloat = 122443;
 		
-		
+		System.out.println("=========================================");
 		System.out.println("Welcome To the Killing Chat!");
+		System.out.println("=========================================");
 		Thread.sleep(sleep1);
 		System.out.println("Please Wait Until We Find Somneone We Chat With...");
 		Thread.sleep(sleep2);
@@ -30,7 +31,7 @@ public class KillingChatGame {
 		String InputName = ("Stranger");
 		String EndName = ("Stranger");
 		// End Of InputName
-		String InputChatting = InputName + " Is Typeing";
+		String InputChatting = InputName + " Is Typeing...";
 		System.out.println(InputChatting);
 		Thread.sleep(sleep2);
 		System.out.println("Hello My Name is " + InputName);
@@ -49,7 +50,7 @@ public class KillingChatGame {
 		System.out.println(InputChatting);
 		Thread.sleep(sleep2);
 		// InputName Asking What you like to do
-		System.out.println("whats Your Favorate Thing To Do?");
+		System.out.println("Whats Your Favorate Thing To Do?");
 		System.out.println("<--Type In And Press Enter-->");
 		String UInputFavthing = Keyboard.readString();
 		Thread.sleep(sleep1);
@@ -60,7 +61,7 @@ public class KillingChatGame {
 		System.out.println("<--Type In And Press Enter-->"); String UInputEatingPeople = Keyboard.readString();
 		Thread.sleep(sleep1);
 		// InputName does Not Like the answer
-		System.out.println("I Don't like that Anser " + UInputEatingPeople +", " + UInputName); Thread.sleep(2000);
+		System.out.println("I Don't like that Ansor " + UInputEatingPeople +", " + UInputName); Thread.sleep(2000);
 		// InputName Theaens to eat the user
 		Thread.sleep(sleep1);
 		System.out.println(InputChatting);
@@ -81,7 +82,7 @@ public class KillingChatGame {
 		System.out.println(InputChatting);
 		Thread.sleep(sleep2);
 		System.out.println("IF you can guess this Number " + UInputName + " Then i will let you go... :D. OK?");
-		System.out.println("<--Type In OK! And Press Enter-->");
+
 		String UInputOk = Keyboard.readString();
 		System.out.println(InputChatting);
 		Thread.sleep(sleep2);
@@ -90,7 +91,6 @@ public class KillingChatGame {
 		System.out.println(" ");
 		// TODO GET THIS ONE with float
 		float UInputFloat1 = Keyboard.readFloat();
-		System.out.println("<--Type In A Number! And Press Enter-->");
 		System.out.println(InputChatting);
 		Thread.sleep(sleep2);
 		System.out.println("So you Number is.." + UInputFloat1 + " Huh? WRONG!");
@@ -107,7 +107,7 @@ public class KillingChatGame {
 		Thread.sleep(sleep2);
 		System.out.println("so your number is... " + UInputdouble1 + " mummmmm. nope now you willl die im tracing you ip mate");
 		System.out.println("And now I know where you live. ha! ha! ha!. Im coming for you!");
-		Thread.sleep(sleep1)
+		Thread.sleep(sleep1);
 		System.out.println("DIE!");
 		Thread.sleep(700);
 		System.out.println("DIE!");
@@ -129,7 +129,35 @@ public class KillingChatGame {
 		System.out.println("DIE!");
 		Thread.sleep(700);
 		System.out.println("<<--------Disconnected With, " + EndName + "--------->>");
-		Thread.sleep(700);
+		Thread.sleep(5000);
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("UUUOH DDOS ATTACK COMING...!");
+		Thread.sleep(3000);
+		System.out.println("ESTMEATED OUTAGTE TIME 3 DAYS D;");
+		System.out.println("DDOS ATTACK IS HERE! SOMEONE GETTING IP!");
+		Thread.sleep(sleep1);
+		System.out.println("MAY DEATH RAIN UPON US...");
+		Thread.sleep(5000);
+		System.out.println("*YOUR COMPUTER IS DEAD FORM TOO MANY DDOS ATTACKS*");
+		
+		
+		
+		
 		
 				
 		
